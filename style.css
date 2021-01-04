@@ -1,0 +1,32 @@
+* {
+	--background_color: #333333;
+	--border_color: #808080;
+	--text_color: #ffffff;
+	--lighter_background: #404040;
+	--darker_text: #e6e6e6;
+}
+
+body {
+	background-color: var(--background_color);
+	color: var(--text_color);
+	text-align: center;
+	margin: 0 !important;
+}
+
+#container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+#container > div {
+	background-color: var(--lighter_background);
+	padding: 10px 30px;
+	text-shadow: 1px 1px 2px black;
+}
+
+span {
+	color: red;
+}
